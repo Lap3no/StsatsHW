@@ -10,10 +10,10 @@ public class Main {
         int[] averageSum = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         System.out.println(service.calculateAverageSum(averageSum));
 
-        long[] salesMin = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+        int[] salesMin = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         System.out.println(service.calculateMinMonth(salesMin));
 
-        long[] salesMax = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+        int[] salesMax = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         System.out.println(service.calculateMaxMonth(salesMax));
 
         int[] aboveAverageSale = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
